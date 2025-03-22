@@ -1,7 +1,5 @@
 # GitHub Kaggle Project README Template
 
-⚠️ _Remember to update the above title and remove all guidance notes and examples in this template, before finalizing your README_
-
 ---
 
 ### **👥 Team Members**
@@ -42,8 +40,6 @@
 
 ## **🏗️ Project Overview**
 
-**Describe:**
-
 * The Kaggle competition and its connection to the Break Through Tech AI Program
 * The objective of the challenge
 * The real-world significance of the problem and the potential impact of your work
@@ -52,11 +48,13 @@
 
 ## **📊 Data Exploration**
 
-**Describe:**
+* Dataset: The dataset we used is a subset of the FitzPatrick17k dataset. This is a labeled collection of around 17,000 images that depict serious and cosmetic dermatological conditions such as melanoma and acne among a range of skin tones scored on the FitzPatrick skin tone scale. We took a sample of around 4,500 images from this dataset, which represented 21 skin conditions out of over 100.
 
-* The dataset(s) used (i.e., the data provided in Kaggle \+ any additional sources)
-* Data exploration and preprocessing approaches
-* Challenges and assumptions when working with the dataset(s)
+* Data Exploration and Preprocessing: To begin exploring our data, we viewed the variety of images that contained skin conditions, as outlined by the "Evaluating Deep Neural Networks Trained on Skin Images with the Fitzpatrick 17k Dataset" video provided to us. We also examined the metadata provided to us as well as conducted our own research on how machine learning is currently being tested in real clinical settings to help with determining and treating dermatalogical conditions.
+
+After exploring the data and performing filename adjustments such as constructing file paths, we started data preprocessing beginning with using scikit-learn’s LabelEncoder to transform string labels into integers. We split the data into training and validation sets and used the ImageDataGenerator to preprocess image data by rescaling pixel values from their original range (0–255) to a normalized range. We used the helper function create_generator to generate batches of image data directly from the dataframe, and then were able to train a Keras Sequential CNN model.
+  
+* Challenges we faced: A major challenge that we faced when working with this dataset for our Kaggle competition was the fact that we needed to work with image data using convolutional neural networks instead of the traditional deep neural networks that we were used to using. In addition, we made a few assumptions about our data, in particular assuming that all images can be uniformly resized to the target size without losing critical information.
 
 **Potential visualizations to include:**
 
