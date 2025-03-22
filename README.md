@@ -57,8 +57,13 @@
 * Challenges we faced: A major challenge that we faced when working with this dataset for our Kaggle competition was the fact that we needed to work with image data using convolutional neural networks instead of the traditional deep neural networks that we were used to using. In addition, we made a few assumptions about our data, in particular assuming that all images can be uniformly resized to the target size without losing critical information.
 
 
-Visualizations of preprocessing steps and Model Accuracy/Loss charts are listed in this Github repository as Loss and Accuracy.png and Skin_Tone_Across_Classes.png.
+Visualizations:
 
+## Skin Tone Across Classes
+![Skin Tone Across Classes](Skin_Tone_Across_Classes.png)
+
+## Loss and Accuracy
+![Loss and Accuracy](Loss%20and%20Accuracy.png)
 
 ---
 
