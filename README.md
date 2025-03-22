@@ -16,7 +16,7 @@
 
 **Example:**
 
-* Built a \[insert model type\] using \[techniques used\] to solve \[Kaggle competition task\]
+* Built a CNN-based deep learning model using \[techniques used\] with transfer learning and fine-tuning to solve to classify dermatological conditions across diverse skin tones
 * Achieved an F1 score of \[insert score\] and a ranking of \[insert ranking out of participating teams\] on the final Kaggle Leaderboard
 * Used \[explainability tool\] to interpret model decisions
 * Implemented \[data preprocessing method\] to optimize results within compute constraints
@@ -30,19 +30,17 @@
 
 **Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
 
-* How to clone the repository
-* How to install dependencies
-* How to set up the environment
-* How to access the dataset(s)
-* How to run the notebook or scripts
+* To reproduce this project, first clone the repository using git clone https://github.com/your-username/dermatology-ai. Then, set up the environment by creating a virtual environment (e.g., using python -m venv env) and activating it. 
+* This project is designed to run in Kaggle Notebooks, so no local dataset downloads are necessary. 
+* The dataset is automatically available via the competition page at /kaggle/input/bttai-ajl-2025/ once you join the Break Through Tech x Algorithmic Justice League competition on Kaggle.
 
 ---
 
 ## **🏗️ Project Overview**
 
-* The Kaggle competition and its connection to the Break Through Tech AI Program
-* The objective of the challenge
-* The real-world significance of the problem and the potential impact of your work
+* This project was developed as part of the Break Through Tech AI Program in collaboration with the Algorithmic Justice League through a Kaggle-hosted competition. The competition challenges participants to build inclusive machine learning models capable of classifying dermatological conditions from images across diverse skin tones. 
+* The primary objective is to address bias in dermatology AI tools, which historically underperform for people with darker skin due to underrepresentation in training data.
+* By creating a fairer and more accurate classification model, our work has the potential to reduce diagnostic errors, improve early detection, and promote equitable healthcare outcomes for marginalized communities. This project not only advances technical performance in medical AI but also contributes to broader efforts in algorithmic fairness and social impact.
 
 ---
 
