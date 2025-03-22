@@ -1,4 +1,4 @@
-# GitHub Kaggle Project README Template
+# GitHub Kaggle Project README
 
 ---
 
@@ -8,7 +8,7 @@
 | ----- | ----- | ----- |
 | David Wang | @davidwang5 | Worked on CNN model, performed data augmentation |
 | Kristal Hong | @ | Worked on CNN model, performed data augmentation |
-| Suzette Mejia | @ | Worked on CNN model, performed data augmentation |
+| Suzette Mejia | @suzettem16 | Worked on CNN model, performed data augmentation |
 | Suzette Mejia | @ | Worked on CNN model, performed data augmentation |
 
 
@@ -65,7 +65,7 @@
 ## **🧠 Model Development**
 
 **Describe (as applicable):**
-
+We used two different models to make progress in achieving our primary goal of increasing classification accuracy among all skin tones. The first model was CNN... The second model was the pre-trained model EfficientNetB0...
 * Model(s) used (e.g., CNN with transfer learning, regression models)
 * Feature selection and Hyperparameter tuning strategies
 * Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
