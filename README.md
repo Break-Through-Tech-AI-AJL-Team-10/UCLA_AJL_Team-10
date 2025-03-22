@@ -6,9 +6,11 @@
 
 | Name | GitHub Handle | Contribution |
 | ----- | ----- | ----- |
-| Alice Doe | @AliceDoe | Built CNN model, performed data augmentation |
-| Mel Ramakrishnan | @MelRam | Led EDA, visualized dataset distributions, handled missing data |
-| Charlie Nguyen | @CharlieN | Implemented explainability tools |
+| David Wang | @davidwang5 | Worked on CNN model, performed data augmentation |
+| Kristal Hong | @ | Worked on CNN model, performed data augmentation |
+| Suzette Mejia | @ | Worked on CNN model, performed data augmentation |
+| Suzette Mejia | @ | Worked on CNN model, performed data augmentation |
+
 
 ---
 
@@ -16,7 +18,7 @@
 
 **Example:**
 
-* Built a CNN-based deep learning model using \[techniques used\] with transfer learning and fine-tuning to solve to classify dermatological conditions across diverse skin tones
+* Built a \[insert model type\] using \[techniques used\] to solve \[Kaggle competition task\]
 * Achieved an F1 score of \[insert score\] and a ranking of \[insert ranking out of participating teams\] on the final Kaggle Leaderboard
 * Used \[explainability tool\] to interpret model decisions
 * Implemented \[data preprocessing method\] to optimize results within compute constraints
@@ -28,19 +30,23 @@
 
 ## **👩🏽‍💻 Setup & Execution**
 
-**Provide step-by-step instructions so someone else can run your code and reproduce your results. Depending on your setup, include:**
+* Open your terminal and run the following commands to clone the repository and navigate into it:
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
 
-* To reproduce this project, first clone the repository using git clone https://github.com/your-username/dermatology-ai. Then, set up the environment by creating a virtual environment (e.g., using python -m venv env) and activating it. 
-* This project is designed to run in Kaggle Notebooks, so no local dataset downloads are necessary. 
-* The dataset is automatically available via the competition page at /kaggle/input/bttai-ajl-2025/ once you join the Break Through Tech x Algorithmic Justice League competition on Kaggle.
+* This project requires Python 3.7+ along with several libraries such as pandas, numpy, scikit-learn, and tensorflow.
+  
+* Make sure your Python environment is activated (if using a virtual environment) and that you have installed all dependencies. You may also need to update your environment variables or paths if your dataset location differs from the default settings in the code.
+  
+*If you are running the project in a Kaggle Notebook, attach the dataset (e.g., bttai-ajl-2025) via the Kaggle interface. The file paths in the code assume the dataset is located at /kaggle/input/bttai-ajl-2025/.
 
 ---
 
 ## **🏗️ Project Overview**
 
-* This project was developed as part of the Break Through Tech AI Program in collaboration with the Algorithmic Justice League through a Kaggle-hosted competition. The competition challenges participants to build inclusive machine learning models capable of classifying dermatological conditions from images across diverse skin tones. 
-* The primary objective is to address bias in dermatology AI tools, which historically underperform for people with darker skin due to underrepresentation in training data.
-* By creating a fairer and more accurate classification model, our work has the potential to reduce diagnostic errors, improve early detection, and promote equitable healthcare outcomes for marginalized communities. This project not only advances technical performance in medical AI but also contributes to broader efforts in algorithmic fairness and social impact.
+* The Kaggle competition and its connection to the Break Through Tech AI Program
+* The objective of the challenge
+* The real-world significance of the problem and the potential impact of your work
 
 ---
 
@@ -54,9 +60,9 @@ After exploring the data and performing filename adjustments such as constructin
   
 * Challenges we faced: A major challenge that we faced when working with this dataset for our Kaggle competition was the fact that we needed to work with image data using convolutional neural networks instead of the traditional deep neural networks that we were used to using. In addition, we made a few assumptions about our data, in particular assuming that all images can be uniformly resized to the target size without losing critical information.
 
-**Potential visualizations to include:**
+**Visualizations:**
 
-* Plots, charts, heatmaps, feature visualizations, sample dataset images
+
 
 ---
 
