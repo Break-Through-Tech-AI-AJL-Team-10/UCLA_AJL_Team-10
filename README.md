@@ -18,10 +18,10 @@
 
 **Example:**
 
-* * Built a CNN-based deep learning model with transfer learning and fine-tuning to solve to classify dermatological conditions across diverse skin tones
-* Achieved an F1 score of \[insert score\] and a ranking of \[insert ranking out of participating teams\] on the final Kaggle Leaderboard
-* Used \[explainability tool\] to interpret model decisions
-* Implemented \[data preprocessing method\] to optimize results within compute constraints
+* Built a CNN-based deep learning model with transfer learning and fine-tuning to solve to classify dermatological conditions across diverse skin tones
+* Achieved a ranking of 37 out of 73 on the Kaggle Leaderboard
+* Used Grad-CAM to interpret model decisions to interpret model decisions
+* Implemented image normalization to optimize results within compute constraints
 
 🔗 [Equitable AI for Dermatology | Kaggle Competition Page](https://www.kaggle.com/competitions/bttai-ajl-2025/overview)
 🔗 [WiDS Datathon 2025 | Kaggle Competition Page](https://www.kaggle.com/competitions/widsdatathon2025/overview)
@@ -56,8 +56,8 @@
   
 * Challenges we faced: A major challenge that we faced when working with this dataset for our Kaggle competition was the fact that we needed to work with image data using convolutional neural networks instead of the traditional deep neural networks that we were used to using. In addition, we made a few assumptions about our data, in particular assuming that all images can be uniformly resized to the target size without losing critical information.
 
-**Visualizations:**
 
+Visualizations of preprocessing steps and Model Accuracy/Loss charts are listed in this Github repository as Loss and Accuracy.png and Skin_Tone_Across_Classes.png.
 
 
 ---
