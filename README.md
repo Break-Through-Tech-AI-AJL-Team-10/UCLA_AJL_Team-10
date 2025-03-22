@@ -7,9 +7,9 @@
 | Name | GitHub Handle | Contribution |
 | ----- | ----- | ----- |
 | David Wang | @davidwang5 | Worked on CNN model, performed data augmentation |
-| Kristal Hong | @ | Worked on CNN model, performed data augmentation |
+| Kristal Hong | @khong707 | Worked on CNN model, performed data augmentation |
 | Suzette Mejia | @suzettem16 | Worked on CNN model, performed data augmentation |
-| Suzette Mejia | @ | Worked on CNN model, performed data augmentation |
+| Stella Huang | @stellahuang0527 | Worked on CNN model, performed data augmentation |
 
 
 ---
