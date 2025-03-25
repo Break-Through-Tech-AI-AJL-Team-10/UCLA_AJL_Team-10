@@ -94,21 +94,25 @@ We used two different models to make progress in achieving our primary goal of i
 
 ## **🖼️ Impact Narrative**
 
-**Answer the relevant questions below based on your competition:**
+**"_When you erase our data, you erase our stories. But when you include us, you illuminate our truths._" 
+<br /> – Inspired by the Algorithmic Justice League**
 
-**WiDS challenge:**
+<br /> In today's society, algorithmic bias has become one of the most pressing issues in the deployment of machine learning models, particularly in high-stakes fields like healthcare. As more clinical tools adopt AI-driven methods, it's critical that these systems are not only accurate, but also fair and inclusive. Historically, people with darker skin tones have been excluded or underrepresented in the training data for dermatology AI systems, leading to disparities in diagnostic accuracy. 
 
-1. What brain activity patterns are associated with ADHD; are they different between males and females, and, if so, how?
-2. How could your work help contribute to ADHD research and/or clinical care?
+To address model fairness, several strategies grounded in ethical AI development were applied. We leveraged data augmentation techniques—including flipping, zooming, rotation, and brightness normalization—to diversify training images and reduce bias from overrepresented patterns. Applying class weighting to counterbalance skewed label distributions, ensured the model paid appropriate attention to underrepresented conditions. Our validation set maintained stratified representation of skin tones, enabling us to monitor model performance across the Fitzpatrick scale.
 
-**AJL challenge:**
+Beyond the model’s predictive capability, we utilized Grad-CAM visualizations to make model decisions interpretable and accessible. These heatmaps reveal where the model is focusing its attention in an image, allowing both researchers and non-technical stakeholders to evaluate whether the model’s rationale aligns with clinical intuition:
 
-As Dr. Randi mentioned in her challenge overview, “Through poetry, art, and storytelling, you can reach others who might not know enough to understand what’s happening with the machine learning model or data visualizations, but might still be heavily impacted by this kind of work.”
-As you answer the questions below, consider using not only text, but also illustrations, annotated visualizations, poetry, or other creative techniques to make your work accessible to a wider audience.
-Check out [this guide](https://drive.google.com/file/d/1kYKaVNR\_l7Abx2kebs3AdDi6TlPviC3q/view) from the Algorithmic Justice League for inspiration!
+<img width="482" alt="Screenshot 2025-03-25 at 3 31 45 PM" src="https://github.com/user-attachments/assets/a0a6e4b4-612b-4ce1-a696-e0d9784fbeca" />
 
-1. What steps did you take to address [model fairness](https://haas.berkeley.edu/wp-content/uploads/What-is-fairness_-EGAL2.pdf)? (e.g., leveraging data augmentation techniques to account for training dataset imbalances; using a validation set to assess model performance across different skin tones)
-2. What broader impact could your work have?
+<img width="481" alt="Screenshot 2025-03-25 at 3 32 50 PM" src="https://github.com/user-attachments/assets/8196a94f-0086-4cbd-9434-e3ae8059bf0f" />
+
+<img width="480" alt="Screenshot 2025-03-25 at 3 22 57 PM" src="https://github.com/user-attachments/assets/2e4ed153-c799-4f1a-ab89-fd9b98a3dca4" />
+
+<img width="483" alt="Screenshot 2025-03-25 at 1 18 29 PM" src="https://github.com/user-attachments/assets/ed1d625f-7b6f-412d-b6c2-ca063d10ef86" />
+
+
+<br /> The impact of this work lies in its potential to reduce diagnostic disparities in dermatology, particularly for patients with darker skin tones who are often misdiagnosed or underdiagnosed by AI systems. By building explainable and equitable tools, we contribute not only to technical fairness but to the democratization of healthcare innovation. Inspired by Dr. Randi’s call to integrate storytelling, we see our model as a way to connect data science with lived experience, helping bring representation and visibility to those historically excluded from medical AI.
 
 ---
 
