@@ -118,17 +118,14 @@ Beyond the model’s predictive capability, we utilized Grad-CAM visualizations 
 
 ## **🚀 Next Steps & Future Improvements**
 
-**Address the following:**
-
-* What are some of the limitations of your model?
-* What would you do differently with more time/resources?
-* What additional datasets or techniques would you explore?
+* One of the limitations of our CNN model was that it could have had a higher accuracy score. With more time and resources, we could have implemented a pre-trained model like ResNet, which would most likely have a higher accuracy score than the base CNN model
+* Additional techniques we could explore include better hyperparameter tuning.
 
 ---
 
 ## **📄 References & Additional Resources**
 
-* Cite any relevant papers, articles, or tools used in your project
+* Dataset and Background Information: https://www.kaggle.com/competitions/bttai-ajl-2025
 
 ---
 
