@@ -118,8 +118,9 @@ Beyond the model’s predictive capability, we utilized Grad-CAM visualizations 
 
 ## **🚀 Next Steps & Future Improvements**
 
-* One of the limitations of our CNN model was that it could have had a higher accuracy score. With more time and resources, we could have implemented a pre-trained model like ResNet, which would most likely have a higher accuracy score than the base CNN model
-* Additional techniques we could explore include better hyperparameter tuning.
+* One of the limitations of our CNN model was that it could have had a higher accuracy score. We could have improved our model by introducing new training data as well as using better preprocessing techniques to balance the data before we trained a model.
+* With more time and resources, we could have implemented a pre-trained model like ResNet, which would most likely have had a higher accuracy score than the base CNN model. By utilizing pre-trained models and transfer learning, we could achieve higher accuracy scores for our models.
+* Additional techniques we could explore would include better hyperparameter tuning and dataset balancing. Given more time to implement the model, we could better study the data before we created our CNN model.
 
 ---
 
