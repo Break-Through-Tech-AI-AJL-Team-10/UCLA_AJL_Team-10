@@ -69,11 +69,9 @@ Visualizations:
 
 ## **🧠 Model Development**
 
-**Describe (as applicable):**
-We used two different models to make progress in achieving our primary goal of increasing classification accuracy among all skin tones. The first model was CNN... The second model was the pre-trained model EfficientNetB0...
-* Model(s) used (e.g., CNN with transfer learning, regression models)
-* Feature selection and Hyperparameter tuning strategies
-* Training setup (e.g., % of data for training/validation, evaluation metric, baseline performance)
+We used two different models to make progress in achieving our primary goal of increasing classification accuracy among all skin tones. The first model was Convolutional Neural Networks (CNN), and the second was the pre-trained model EfficientNetB0. We prepared our data by splitting the training data set into 80% of training and 20% for the validation data set. Since our dataset contained images, we mostly focused on performing data augmentation techniques like rescaling, rotation, shift, and horizontal flip, as this was the input for our model. Additionally, some strategies we used to tune our model were changing the number of epochs and adding layers, such as Dropout. This allowed us to see different results for accuracy, loss, validation loss, and validation accuracy. 
+
+Our first method was building a CNN model with multiple Conv2D, MaxPooling2D, Flatten, Dense, and Dropout layers to see if this was the best approach to achieve our goal. After some time of not seeing much improvement, we decided to use a different approach and use EfficientNetB0 as our final model. This included training the model by freezing the base layers and then training by unfreezing the base layers. By doing this method, our model learned more complex features from the image data. Although we didn't reach the accuracy we hoped for, we saw that pre-trained models can be more promising for our dataset and can help achieve higher image classification. 
 
 ---
 
